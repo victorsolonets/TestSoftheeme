@@ -63,7 +63,7 @@ public class SearchStringZero {
             bit = rand.nextInt(2);
             dout.write(bit);
         }
-        bout.close();
+        dout.close();
     }
 
     public static void writeInFile(int numb) throws IOException {
